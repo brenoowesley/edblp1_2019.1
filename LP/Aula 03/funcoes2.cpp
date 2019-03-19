@@ -1,9 +1,16 @@
 #include <iostream>
 #include <string>
-
+//Lista de exercícios: waldson.com.br/lp1/lista01.pdf
+//
+//
+//
+//
+//
+//
+//
 int quadrado(int numero);
 int leiaInteiro(std::string mensagem);
-int soma(int primeiro_numero, int segundo_numero);
+int soma(int primeiro_numero, int segundo_numero);	
 
 
 int main()
