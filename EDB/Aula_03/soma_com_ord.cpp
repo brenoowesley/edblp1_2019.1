@@ -1,5 +1,8 @@
 #include <iostream>
 #include <stdlib.h>
+// http://waldson.com.br/edb1/trabalho-complexidade.pdf
+
+
 
 int main(){
 	int qtde_numeros 	= 20000;
@@ -8,6 +11,7 @@ int main(){
 	int final_array 	= qtde_numeros;
 	int prox_num 		= 1;
 	int soma 			= 0;
+	
 	for (int i = 0; i < qtde_numeros; ++i){ 
 		numeros[i] = (rand() % 100) + 1 ;
 	}

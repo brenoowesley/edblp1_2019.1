@@ -28,7 +28,7 @@ int main(){
 				
 
 
-				 delete[] numeros;
+				 delete[] numeros;	
 				 return 0;
 			}
 		}

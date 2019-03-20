@@ -18,7 +18,7 @@ int main()
 	system("clear");
 	int numero = leiaInteiro("Digite um número: ");
 	std::cout << "O quadrado de " << numero << " é " << quadrado(numero)<< "\n" ;
-	std::cout << "E o número que você quer é: " << soma(leiaInteiro("Digite o primeiro numero"),leiaInteiro("Digite o segundo numero"));
+	std::cout << "A soma dos numeros dados é: " << soma(leiaInteiro("Digite o primeiro numero"),leiaInteiro("Digite o segundo numero"));
 	return 0;
 }
 
