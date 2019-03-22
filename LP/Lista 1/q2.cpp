@@ -5,7 +5,7 @@
 int main() {	
 	std::string nome;
 
-	std::cout << "Digite seu nome";
+	std::cout << "Digite seu nome: ";
 	std::cin >> nome;
 	std::cout << "Hello, " << nome;
 	return 0;
